@@ -6,15 +6,14 @@ for(var k in navigator){
 if(typeof navigator[k]!= "function" && k!="n"){
 try{navigator.n[k]=JSON.parse(JSON.stringify(navigator[k]))}catch(er){}
 }
-}
-navigator.n.userAgentData=null;
+
 
 navigator.n.userAgentData=null;
 for(var k in navigator){
     if(typeof navigator[k]!= "function" && k!="n"){
     try{navigator.n[k]=JSON.parse(JSON.stringify(navigator[k]))}catch(er){}
     }
-    }
+    
 
 
 $(`<div class="youtubeSearch" style="position: relative;float: right;width: 100%;top: 0;"> 
