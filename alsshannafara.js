@@ -23,7 +23,7 @@ $(`<div class="youtubeSearch" style="position: relative;float: right;width: 100%
       </div> 
       <div style="display: flex;background-color: white;padding: 2px 0;border-bottom: 1px solid;"> 
        <i onclick="send('youtube', {'search':$('.youtubeVal').val()});$('.youtubeLoad').show()" style="float: left;font-size: 24px !important;color: #6d6b6b;font-weight: 100!important;margin: 3px;" class="fa fa-search" aria-hidden="true"></i> 
-       <input style="text-align: center;float: right;" type="text" class="form-control youtubeVal" placeholder="ط§ظ„ط¨ط­ط« ظپظٹ ظٹظˆطھظٹظˆط¨ / ظ‚ظ€ط±ظٹط¨ط§ "> 
+       <input style="text-align: center;float: right;" type="text" class="form-control youtubeVal" placeholder="شات سهر الشام"> 
        <i style="float: right;font-size: 30px !important;color: red;font-weight: 100!important;margin: 3px;" class="fa fa-youtube" aria-hidden="true"></i> 
       </div> 
       <div style="display: none;" class="vieYoutube"> 
